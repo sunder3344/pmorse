@@ -10,8 +10,8 @@ Windows中右键->属性->安全
 
 
 编译命令：
-python3 setup.py sdist bdist_wheel
+python setup.py sdist bdist_wheel
 
 
 上传命令：
-python3.5 setup.py sdist upload -r pypi
+python setup.py sdist upload -r pypi
