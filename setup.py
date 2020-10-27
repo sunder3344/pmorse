@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='morse for python',
+    name='pmorse',
     version='1.0',
     description=(
         'morse for python'
