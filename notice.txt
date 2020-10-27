@@ -1,0 +1,17 @@
+[linux]
+/home/yourname/.pypirc on Mac and Linux
+改变文件读写权限，因为其中含有明文的密码:
+chmod 600 ~/.pypirc on Mac and Linux
+
+[windows]
+C:\Users\YourName.pypirc on Windows
+改变文件读写权限，因为其中含有明文的密码:
+Windows中右键->属性->安全
+
+
+编译命令：
+python3 setup.py sdist bdist_wheel
+
+
+上传命令：
+python3.5 setup.py sdist upload -r pypi
